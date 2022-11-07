@@ -11,4 +11,9 @@ public class K {
         return USERS + "?" + ID + id;
     }
 
+    public static String jsonBody(String name, String lastname){
+        return "{\"name\": \"" + name + "\",\"lastname\":\"" + lastname + "\"}";
+        //       {"name" : "e","lastname" : "ee"}
+    }
+
 }
